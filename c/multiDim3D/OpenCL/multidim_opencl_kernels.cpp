@@ -48,6 +48,6 @@ void ops_decl_const_char(int dim, char const * type, int typeSize, char * dat, c
   }
   
 //user kernel files
-#include "multidim_reduce_kernel_opencl_kernel.cpp"
 #include "multidim_copy_kernel_opencl_kernel.cpp"
 #include "multidim_kernel_opencl_kernel.cpp"
+#include "multidim_reduce_kernel_opencl_kernel.cpp"

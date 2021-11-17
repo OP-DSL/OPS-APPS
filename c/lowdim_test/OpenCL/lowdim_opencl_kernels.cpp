@@ -47,5 +47,5 @@ void ops_decl_const_char(int dim, char const * type, int typeSize, char * dat, c
   }
   
 //user kernel files
-#include "set_val_opencl_kernel.cpp"
 #include "calc_opencl_kernel.cpp"
+#include "set_val_opencl_kernel.cpp"
