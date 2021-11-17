@@ -95,5 +95,5 @@ void ops_decl_const_char(int dim, char const * type, int typeSize, char * dat, c
   }
   
 //user kernel files
-#include "preproc_kernel_opencl_kernel.cpp"
 #include "init_kernel_opencl_kernel.cpp"
+#include "preproc_kernel_opencl_kernel.cpp"

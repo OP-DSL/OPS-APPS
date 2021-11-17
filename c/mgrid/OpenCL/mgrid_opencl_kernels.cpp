@@ -47,9 +47,9 @@ void ops_decl_const_char(int dim, char const * type, int typeSize, char * dat, c
   }
   
 //user kernel files
+#include "mgrid_prolong_kernel_opencl_kernel.cpp"
 #include "restrict_check_opencl_kernel.cpp"
-#include "mgrid_restrict_kernel_opencl_kernel.cpp"
 #include "mgrid_populate_kernel_3_opencl_kernel.cpp"
 #include "mgrid_populate_kernel_1_opencl_kernel.cpp"
-#include "mgrid_prolong_kernel_opencl_kernel.cpp"
 #include "prolong_check_opencl_kernel.cpp"
+#include "mgrid_restrict_kernel_opencl_kernel.cpp"

@@ -144,10 +144,10 @@ void ops_decl_const_char(int dim, char const * type, int typeSize, char * dat, c
   }
   
 //user kernel files
-#include "complex_numbers_block0_cn_kernel_opencl_kernel.cpp"
-#include "complex_numbers_block0_5_kernel_opencl_kernel.cpp"
-#include "complex_numbers_block0_3_kernel_opencl_kernel.cpp"
-#include "complex_numbers_block0_2_kernel_opencl_kernel.cpp"
-#include "complex_numbers_block0_0_kernel_opencl_kernel.cpp"
-#include "complex_numbers_block0_1_kernel_opencl_kernel.cpp"
 #include "complex_numbers_block0_4_kernel_opencl_kernel.cpp"
+#include "complex_numbers_block0_0_kernel_opencl_kernel.cpp"
+#include "complex_numbers_block0_cn_kernel_opencl_kernel.cpp"
+#include "complex_numbers_block0_2_kernel_opencl_kernel.cpp"
+#include "complex_numbers_block0_5_kernel_opencl_kernel.cpp"
+#include "complex_numbers_block0_1_kernel_opencl_kernel.cpp"
+#include "complex_numbers_block0_3_kernel_opencl_kernel.cpp"
